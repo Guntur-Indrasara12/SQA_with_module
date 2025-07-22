@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Modules\Product\Http\Controllers;
 
-use App\Exceptions\product\ProductNotFoundException;
-use App\Services\ProductService;
-use App\Http\Requests\StoreProductRequest;
+use App\Modules\Shared\Http\Controllers\Controller;
+use App\Modules\Product\Exceptions\product\ProductNotFoundException;
+use App\Modules\Product\Services\ProductService;
+use App\Modules\Product\Http\Requests\StoreProductRequest;
 use Illuminate\Http\Request;
 
 use App\Notifications\ProductRequestedNotification;

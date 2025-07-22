@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Exceptions\Order;
+namespace App\Modules\Order\Exceptions\Order;
 
-use App\Exceptions\BaseException;
+use App\Modules\Shared\Exceptions\BaseException;
 
 class OrderNotFoundException extends BaseException
 {

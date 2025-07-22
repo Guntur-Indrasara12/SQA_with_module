@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Listeners;
+namespace App\Modules\Order\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use App\Events\OrderCreated;
+use App\Modules\Order\Events\OrderCreated;
 use Illuminate\Support\Facades\Log;
 
 class SendOrderNotification

@@ -2,11 +2,11 @@
 
 namespace App\Providers;
 
-use App\Interfaces\OrderRepositoryInterface;
-use App\Repositories\OrderRepository;
+use App\Modules\Order\Interfaces\OrderRepositoryInterface;
+use App\Modules\Order\Repositories\OrderRepository;
 use Illuminate\Support\ServiceProvider;
-use App\Interfaces\ProductRepositoryInterface;
-use App\Repositories\ProductRepository;
+use App\Modules\Product\Interfaces\ProductRepositoryInterface;
+use App\Modules\Product\Repositories\ProductRepository;
 
 class AppServiceProvider extends ServiceProvider
 {

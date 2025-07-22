@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Modules\Order\Http\Controllers;
 
-use App\Exceptions\Order\OrderNotFoundException;
-use App\Services\OrderService;
-use App\Services\ProductService;
-use App\Http\Requests\StoreOrderRequest;
+use App\Modules\Shared\Http\Controllers\Controller;
+use App\Modules\Order\Exceptions\Order\OrderNotFoundException;
+use App\Modules\Order\Services\OrderService;
+use App\Modules\Product\Services\ProductService;
+use App\Modules\Order\Http\Requests\StoreOrderRequest;
 use App\Notifications\OrderRequestedNotification;
 
 class OrderController extends Controller

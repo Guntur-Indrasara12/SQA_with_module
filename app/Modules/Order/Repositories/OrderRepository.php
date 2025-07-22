@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Modules\Order\Repositories;
 
-use App\Models\Order;
-use App\Interfaces\OrderRepositoryInterface;
+use App\Modules\Order\Models\Order;
+use App\Modules\Order\Interfaces\OrderRepositoryInterface;
 
 class OrderRepository implements OrderRepositoryInterface
 {

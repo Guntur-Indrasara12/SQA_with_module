@@ -1,7 +1,7 @@
 <?php
 
-namespace App\Interfaces;
-use App\Models\order;
+namespace App\Modules\Order\Interfaces;
+use App\Modules\Order\Models\order;
 
 interface OrderRepositoryInterface
 {
