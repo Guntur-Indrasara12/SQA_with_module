@@ -2,10 +2,10 @@
 
 namespace App\Modules\Product\Http\Controllers\Api\V1;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreProductRequest;
-use App\Http\Resources\V1\ProductResource;
-use App\Services\ProductService;
+use App\Modules\Shared\Http\Controllers\Controller;
+use App\Modules\Product\Http\Requests\StoreProductRequest;
+use App\Modules\Product\Http\Resources\V1\ProductResource;
+use App\Modules\Product\Services\ProductService;
 use Symfony\Component\HttpFoundation\Response;
 
 class ProductController extends Controller

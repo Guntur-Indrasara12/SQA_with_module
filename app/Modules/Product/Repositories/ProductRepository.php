@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Modules\Product\Repositories;
 
-use App\Models\Product;
+use App\Modules\Product\Models\Product;
 use Illuminate\Http\Request;
-use App\Interfaces\ProductRepositoryInterface;
+use App\Modules\Product\Interfaces\ProductRepositoryInterface;
 
 class ProductRepository implements ProductRepositoryInterface
 {

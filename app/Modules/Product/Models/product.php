@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Models;
+namespace App\Modules\Product\Models;
 
+use app\Modules\Order\Models\Order;
 use Illuminate\Database\Eloquent\Model;
-use App\Traits\HasQueryFilters;
+use App\Modules\Shared\Traits\HasQueryFilters;
 
 /**
  * @property int $id

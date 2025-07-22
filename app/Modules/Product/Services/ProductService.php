@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Services;
+namespace App\Modules\Product\Services;
 
-use App\Exceptions\product\ProductNotFoundException;
+use App\Modules\Product\Exceptions\product\ProductNotFoundException;
 use Illuminate\Http\Request;
-use App\Interfaces\ProductRepositoryInterface;
-use App\Models\Product;
+use App\Modules\Product\Interfaces\ProductRepositoryInterface;
+use App\Modules\Product\Models\Product;
 use Illuminate\Support\Facades\Cache;
 
 class ProductService

@@ -2,7 +2,7 @@
 
 namespace App\Modules\Product\Exceptions\Product;
 
-use App\Exceptions\BaseException;
+use App\Modules\Shared\Exceptions\BaseException;
 
 class ProductNotFoundException extends BaseException
 {

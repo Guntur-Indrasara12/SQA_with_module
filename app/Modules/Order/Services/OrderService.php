@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Services;
+namespace App\Modules\Order\Services;
 
-use App\Exceptions\Order\OrderNotFoundException;
-use App\Interfaces\OrderRepositoryInterface;
-use App\Models\Order;
-use App\Services\ProductService;
-use App\Events\OrderCreated;
+use App\Modules\Order\Exceptions\Order\OrderNotFoundException;
+use App\Modules\Order\Interfaces\OrderRepositoryInterface;
+use App\Modules\Order\Models\Order;
+use App\Modules\Product\Services\ProductService;
+use App\Modules\Order\Events\OrderCreated;
 
 class OrderService
 {
